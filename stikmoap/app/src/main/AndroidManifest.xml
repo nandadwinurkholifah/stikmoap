@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stikmoap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stikmoap">
+        <activity
+            android:name=".brs"
+            android:exported="false" />
+        <activity
+            android:name=".infografis"
+            android:exported="false" />
+        <activity
+            android:name=".hub_kami"
+            android:exported="false" />
+        <activity
+            android:name=".arc"
+            android:exported="false" />
+        <activity
+            android:name=".publikasi"
+            android:exported="false" />
+        <activity
+            android:name=".instra12"
+            android:exported="false" />
+        <activity
+            android:name=".instra11"
+            android:exported="false" />
+        <activity
+            android:name=".instra10"
+            android:exported="false" />
+        <activity
+            android:name=".instra9"
+            android:exported="false" />
+        <activity
+            android:name=".instra8"
+            android:exported="false" />
+        <activity
+            android:name=".instra7"
+            android:exported="false" />
+        <activity
+            android:name=".instra6"
+            android:exported="false" />
+        <activity
+            android:name=".instra5"
+            android:exported="false" />
+        <activity
+            android:name=".instra4"
+            android:exported="false" />
+        <activity
+            android:name=".instra3"
+            android:exported="false" />
+        <activity
+            android:name=".instra2"
+            android:exported="false" />
+        <activity
+            android:name=".instra1"
+            android:exported="false" />
+        <activity
+            android:name=".instra_show"
+            android:exported="false" />
+        <activity
+            android:name=".indikator"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

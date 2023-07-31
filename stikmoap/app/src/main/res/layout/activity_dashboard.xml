@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/re1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+            </androidx.viewpager.widget.ViewPager>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menu1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/re1">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/indikator"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="30dp"
+                    android:onClick="indikator"
+                    android:src="@drawable/indikator"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/indikator"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Indikator Strategis"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/publikasi"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="145dp"
+                    android:onClick="publikasi"
+                    android:src="@drawable/publikasi" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/publikasi"
+                    android:layout_marginLeft="159dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Publikasi"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/infografis"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="263dp"
+                    android:onClick="infografis"
+                    android:src="@drawable/infografis" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/infografis"
+                    android:layout_marginLeft="275dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Infografis"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+            <!--    <RelativeLayout-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content">-->
+
+            <!--        <ImageView-->
+            <!--            android:id="@+id/tabel"-->
+            <!--            android:layout_width="65dp"-->
+            <!--            android:layout_height="65dp"-->
+            <!--            android:layout_marginLeft="275dp"-->
+            <!--            android:src="@drawable/tabel" />-->
+
+            <!--        <TextView-->
+            <!--            android:layout_width="60dp"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_below="@id/tabel"-->
+            <!--            android:layout_marginLeft="293dp"-->
+            <!--            android:layout_marginTop="3dp"-->
+            <!--            android:text="Tabel"-->
+            <!--            android:textColor="@color/black" />-->
+            <!--    </RelativeLayout>-->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/menu2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu1"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/arc"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="30dp"
+                    android:onClick="arc"
+                    android:src="@drawable/arc" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/arc"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="3dp"
+                    android:text="ARC"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/brs"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="145dp"
+                    android:onClick="brs"
+                    android:src="@drawable/brs" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/brs"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="3dp"
+                    android:text="BRS"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/hub_kami"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="263dp"
+                    android:onClick="hub_kami"
+                    android:src="@drawable/hubungikami" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hub_kami"
+                    android:layout_marginLeft="267dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center"
+                    android:text="Hubungi Kami"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+            <!--        <RelativeLayout-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content">-->
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/website"-->
+            <!--                android:layout_width="65dp"-->
+            <!--                android:layout_height="65dp"-->
+            <!--                android:layout_marginLeft="275dp"-->
+            <!--                android:src="@drawable/website" />-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="60dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_below="@id/website"-->
+            <!--                android:layout_marginLeft="278dp"-->
+            <!--                android:layout_marginTop="3dp"-->
+            <!--                android:gravity="center"-->
+            <!--                android:text="Website"-->
+            <!--                android:textColor="@color/black" />-->
+            <!--    </RelativeLayout>-->
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textgrafik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu2"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="30dp"
+            android:text="Grafik"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/grafik"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/textgrafik">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true">
+
+            </androidx.viewpager.widget.ViewPager>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

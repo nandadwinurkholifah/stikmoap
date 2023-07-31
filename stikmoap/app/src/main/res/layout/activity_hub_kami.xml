@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hub_kami"
+    android:background="@drawable/hub_kami">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/wa"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/wa" />
+
+        <TextView
+            android:id="@+id/twa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wa"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="15dp"
+            android:text="08113693516"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:id="@+id/gmail"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/wa"
+            android:src="@drawable/gmail" />
+
+        <TextView
+            android:id="@+id/tgmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gmail"
+            android:layout_marginLeft="114dp"
+            android:layout_marginTop="9dp"
+            android:text="bps3516@bps.go.id"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:id="@+id/web"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/gmail"
+            android:src="@drawable/web" />
+
+        <TextView
+            android:id="@+id/tweb"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/web"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="10dp"
+            android:text="mojokertokab.bps.go.id"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:id="@+id/maps"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/gedung" />
+
+        <TextView
+            android:id="@+id/tmaps"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="165dp"
+            android:layout_toRightOf="@id/maps"
+            android:text="Jl. RA. Basuni 35 Mojokerto, Jawa  Timur, Indonesia"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/medsos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maps"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/medsos" />
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="316dp"
+            android:src="@drawable/inst" />
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="320dp"
+            android:layout_toRightOf="@id/insta"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/yt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="320dp"
+            android:layout_toRightOf="@id/fb"
+            android:src="@drawable/youtube" />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
